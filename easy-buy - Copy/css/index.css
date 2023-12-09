@@ -1,0 +1,76 @@
+
+#col2:hover #hide{
+    /* display: contents; */
+
+}
+#ul li{
+    font-weight: 700;  
+
+}
+
+.text-center{
+    color: rgb(233, 146, 32);
+    text-shadow: 2px 2px ;
+}
+.container-fluid{
+    /* background-color:rgb(245, 238, 238) */
+    padding: 5px;
+
+}
+.card:hover{
+    background-color: rgb(221, 221, 221);
+     transform: translateY(-9px);
+}
+#p{
+    text-align: center;
+    
+}
+body{
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: black
+}
+#btn1{
+    background-color: rgb(248, 248, 248);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+
+}
+#btn1:hover{
+    background-color:rgb(209, 212, 214);
+    /* color: aqua; */
+    
+}
+.card{
+    animation-name: cad;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+-ms-zoom-animation:initial;
+    
+}
+#a{
+    text-decoration: none;
+    color:black;
+}
+#nav{
+    position: fixed;
+    /* transform:translateX(100px); */
+    z-index: 100;
+    width: 100%;
+     background-color: black;
+
+}
+@keyframes cad {
+    0%{
+        transform: translateX(-1500px);
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .container-fluid{
+        transform: translateX(80px);
+    }
+    
+    
+}
